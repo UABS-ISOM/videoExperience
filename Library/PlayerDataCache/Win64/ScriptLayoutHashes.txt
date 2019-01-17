@@ -1,14 +1,13 @@
 WindowsStandalone
 PlayerPath?
-D:/Documents/Work/TestUnity360-2/TestUnity360-2/App/TestUnity360.exe
+D:/Documents/Work/ARVR_Lab/VideoExperience360/App/TestUnity360.exe
 SceneListBegin?
-Assets/Interactive360/Scenes/StartingScenes/MainMenu_Editor.unity
-Assets/Interactive360/Scenes/VideoScenes/3D_Waterfront.unity
-Assets/Interactive360/Scenes/VideoScenes/3D_HomeInterior.unity
-Assets/Interactive360/Scenes/VideoScenes/2D_Lookout.unity
 Assets/OGGB/Scenes/StartScenes/Main_Controller_Hotspot.unity
 Assets/OGGB/Scenes/VideoPanoramaScenes/2_OGGB_Entrance_Video.unity
 Assets/OGGB/Scenes/VideoPanoramaScenes/1_OGGB_OutsideWalkway_Video.unity
+Assets/OGGB/Scenes/VideoPanoramaScenes/3_OGGB_Stairway_Video.unity
+Assets/OGGB/Scenes/VideoPanoramaScenes/4_OGGB_Level0_Entrance_Video.unity
+Assets/OGGB/Scenes/VideoPanoramaScenes/5_OGGB_Level0_Event_Video.unity
 SceneListEnd?
 c5d466bec0f77b2e519c677e4e85de44 Assembly-CSharp.dll:.GvrDropdown
 486cd95c82d8305219c352c06b776e1f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
