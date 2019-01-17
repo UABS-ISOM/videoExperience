@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/OGGB/Scenes/VideoPanoramaScenes/5_OGGB_Level0_Event_Video.unity
+  isLoaded: 1
+  isActive: 1
