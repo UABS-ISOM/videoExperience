@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5072294, g: 0.5355771, b: 0.56710696, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -861,6 +861,7 @@ MonoBehaviour:
   activeScene: 1_OGGB_OutsideWalkway_Video
   useFade: 1
   fadeOverlay: {fileID: 476751484}
+  ControlUI: {fileID: 0}
 --- !u!1001 &1079833737
 Prefab:
   m_ObjectHideFlags: 0
@@ -995,6 +996,16 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223579351061283222, guid: 2762b2521526bba43875d9f44494501f,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223579351061283222, guid: 2762b2521526bba43875d9f44494501f,
+        type: 2}
+      propertyPath: m_PlaneDistance
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2762b2521526bba43875d9f44494501f, type: 2}

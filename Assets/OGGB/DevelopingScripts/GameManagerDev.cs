@@ -31,7 +31,7 @@ namespace Interactive360
 
         public bool useFade;
         public GameObject fadeOverlay;
-        //public GameObject ControlUI;
+        public GameObject ControlUI;
         //public GameObject LoadingUI;
 
 
@@ -110,7 +110,7 @@ namespace Interactive360
 
         public void BindHotSpotsInScenes()
         {
-
+            ControlUI = HotspotManagerDev.instance.gameObject;
             for (int i = 0; i < HotspotManagerDev.instance.m_hotSpotButtons.Length; i++)
             {
                 Debug.Log(HotspotManagerDev.instance.m_hotSpotButtons.Length);
@@ -129,7 +129,7 @@ namespace Interactive360
             fadeImage = fadeOverlay.GetComponent<Image>();
 
             //turn control UI off and loading UI on
-            //ControlUI.SetActive(false);
+            ControlUI.SetActive(false);
             //LoadingUI.SetActive(true);
 
             //set FadeOut to true on the animator so our image will fade out
@@ -155,10 +155,10 @@ namespace Interactive360
 
             //if we have not destroyed the control UI, set it to active
             //if (ControlUI)
-            //  ControlUI.SetActive(true);
+            // 
 
             BindHotSpotsInScenes();
-
+            ControlUI.SetActive(true);
         }
 
         //Find the video in the scene and pause it

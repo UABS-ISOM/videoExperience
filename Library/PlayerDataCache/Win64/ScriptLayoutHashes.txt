@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-D:/Documents/Work/ARVR_Lab/VideoExperience360/App/TestUnity360.exe
+D:/KimWorkSpace2/UnityBusinessSchoolVideo/VideoExperience/videoExperience/App/TestUnity360.exe
 SceneListBegin?
 Assets/OGGB/Scenes/StartScenes/Main_Controller_Hotspot.unity
 Assets/OGGB/Scenes/VideoPanoramaScenes/2_OGGB_Entrance_Video.unity
