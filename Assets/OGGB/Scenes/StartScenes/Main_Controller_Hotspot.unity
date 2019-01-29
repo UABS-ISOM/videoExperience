@@ -417,7 +417,7 @@ MonoBehaviour:
   whatIsInteractable:
     serializedVersion: 2
     m_Bits: 4294967291
-  rayDistance: 200
+  rayDistance: 300
   drawDebugLine: 0
   line: {fileID: 251457514}
   defaultLineDistance: 25
