@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/OGGB/Scenes/StartScenes/Main_Controller_Hotspot.unity
+- path: Assets/OGGB/Scenes/StartScenes/MRTK_Controller_Hotspot.unity
   isLoaded: 1
   isActive: 1
